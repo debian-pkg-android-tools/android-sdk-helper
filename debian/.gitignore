@@ -1,0 +1,12 @@
+/*.doc-base.javadoc
+/*.log
+/*.substvars
+/.gradle/
+/.javahelper_clean
+/.mh/
+/android-debian-helper/
+/build/
+/debhelper-build-stamp
+/files
+/lib*-java-doc/
+/lib*-java/

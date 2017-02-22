@@ -1,0 +1,8 @@
+subprojects {
+  apply plugin: 'java'
+  group = 'org.debian.gradle'
+  version = rootProject.file('VERSION').text
+  repositories {
+    maven { url 'file:///usr/share/maven-repo' }
+  }
+}

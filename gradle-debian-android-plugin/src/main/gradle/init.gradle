@@ -1,0 +1,10 @@
+initscript {
+  repositories {
+    maven { url 'file:///usr/share/maven-repo' }
+  }
+  dependencies {
+    classpath 'org.debian.gradle:gradle-debian-android-plugin:debian'
+  }
+}
+
+apply plugin: org.debian.gradle.DebianAndroidPlugin

@@ -1,0 +1,1 @@
+gradle-debian-android-plugin/build/debian/*.pom --artifact=gradle-debian-android-plugin/build/libs/*.jar --java-lib

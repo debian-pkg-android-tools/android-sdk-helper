@@ -1,0 +1,5 @@
+android-debian-helper (0.1) UNRELEASED; urgency=medium
+
+  * Initial release. (Closes: #XXXXXX)
+
+ -- Kai-Chung Yan <seamlikok@gmail.com>  Wed, 01 Feb 2017 19:52:04 +0800

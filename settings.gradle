@@ -1,0 +1,3 @@
+rootProject.name = 'android-debian-helper'
+
+include ':gradle-debian-android-plugin'

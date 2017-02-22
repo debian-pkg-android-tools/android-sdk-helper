@@ -1,0 +1,28 @@
+Source: android-debian-helper
+Section: java
+Priority: optional
+Maintainer: Android Tools Maintainers <android-tools-devel@lists.alioth.debian.org>
+Uploaders: Kai-Chung Yan <seamlikok@gmail.com>
+Build-Depends: debhelper (>= 10~),
+               default-jdk-headless (>= 2:1.8) | default-jdk (>= 2:1.8),
+               gradle-debian-helper,
+               maven-repo-helper
+Standards-Version: 3.9.8
+Vcs-Browser: https://anonscm.debian.org/cgit/android-tools/android-debian-helper.git
+Vcs-Git: https://anonscm.debian.org/git/android-tools/android-debian-helper.git
+
+Package: android-debian-helper
+Architecture: all
+Depends: gradle,
+         libgradle-android-plugin-java,
+         ${misc:Depends}
+Description: Helper tools for building Android apps using Debian's Android SDK
+ The Android SDK packaged in Debian is a restricted distribution with only one
+ version of Build-Tools and limited selections of the Android target frameworks
+ (android.jar). This package provides helper tools to build Android apps using
+ Debian's Android SDK without modifying the build scripts.
+ .
+ This package consists of:
+ .
+   * A Gradle init script that forces a build script to use the Gradle Android
+     Plugin in Debian which is patched to work with the SDK.
