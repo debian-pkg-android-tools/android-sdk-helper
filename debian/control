@@ -16,6 +16,7 @@ Architecture: all
 Depends: gradle (>= 3.2.1),
          libgradle-android-plugin-java (>= 2.2.2),
          ${misc:Depends}
+Suggests: android-sdk
 Description: Helper tools for building Android apps using Debian's Android SDK
  The Android SDK packaged in Debian is a restricted distribution with only one
  version of Build-Tools and limited selections of the Android target frameworks
