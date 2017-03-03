@@ -4,7 +4,7 @@
 /.gradle/
 /.javahelper_clean
 /.mh/
-/android-debian-helper/
+/android-sdk-helper/
 /build/
 /debhelper-build-stamp
 /files

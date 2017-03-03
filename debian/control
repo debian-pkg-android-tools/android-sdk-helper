@@ -1,4 +1,4 @@
-Source: android-debian-helper
+Source: android-sdk-helper
 Section: java
 Priority: optional
 Maintainer: Android Tools Maintainers <android-tools-devel@lists.alioth.debian.org>
@@ -8,10 +8,10 @@ Build-Depends: debhelper (>= 10~),
                gradle-debian-helper,
                maven-repo-helper
 Standards-Version: 3.9.8
-Vcs-Browser: https://anonscm.debian.org/cgit/android-tools/android-debian-helper.git
-Vcs-Git: https://anonscm.debian.org/git/android-tools/android-debian-helper.git
+Vcs-Browser: https://anonscm.debian.org/cgit/android-tools/android-sdk-helper.git
+Vcs-Git: https://anonscm.debian.org/git/android-tools/android-sdk-helper.git
 
-Package: android-debian-helper
+Package: android-sdk-helper
 Architecture: all
 Depends: gradle (>= 3.2.1),
          libgradle-android-plugin-java (>= 2.2.2),

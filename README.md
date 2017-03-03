@@ -24,12 +24,12 @@ set to `/usr/lib/android-sdk`:
     one, otherwise throw an error.
 
 This package provides a Gradle init script located in
-`/usr/share/android-debian-helper/init.gradle` which forces a build script to
+`/usr/share/android-sdk-helper/init.gradle` which forces a build script to
 use Debian's Gradle Plugin for Android instead of the one downloaded from online
 Maven repositories. In order to use this script, run:
 
 ```
-gradle -I /usr/share/android-debian-helper/init.gradle [targets...]
+gradle -I /usr/share/android-sdk-helper/init.gradle [targets...]
 ```
 
 This package will provide other tools if the default building tool for Android
